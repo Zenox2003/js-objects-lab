@@ -255,11 +255,15 @@ Solve Exercise 14 here:
 */
 
 game.partyCount = () => {
-    for (let index = 0; index < game.party.length; index++) {
-        const element = [index];
-        
-    }
+    return game.party.length
 }
+
+
+console.log(game.party);
+
+console.log(game.partyCount());
+
+
 
 /*
 Exercise 16
@@ -269,5 +273,5 @@ Exercise 16
 Solve Exercise 16 here:
 */
 
-
+console.log(game);
 
